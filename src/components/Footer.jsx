@@ -20,7 +20,11 @@ export default function Footer() {
             .map((c) => (
               <a
                 key={c.label}
-                href={c.href}
+                href={
+                  c.label === "Email"
+                    ? "https://mail.google.com/mail/?view=cm&fs=1&to=wamik25apr@gmail.com&su=Hello%20Wamik"
+                    : c.href
+                }
                 target="_blank"
                 rel="noreferrer"
                 className="text-xs text-slate-500 transition-colors hover:text-violet-300"
