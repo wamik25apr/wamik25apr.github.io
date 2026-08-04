@@ -82,6 +82,7 @@ export default function Hero() {
             <img
               src={resume.photo}
               alt={`Portrait of ${resume.name}`}
+              fetchPriority="high"
               className="aspect-[4/5] w-full rounded-[1.35rem] object-cover"
             />
           </div>
