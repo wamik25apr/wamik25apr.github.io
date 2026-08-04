@@ -53,7 +53,9 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="mailto:wamik25apr@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=wamik25apr@gmail.com&su=Hello%20Wamik"
+            target="_blank"
+            rel="noreferrer"
             className="rounded-full border border-violet-500/40 px-4 py-1.5 text-sm font-semibold text-violet-300 transition-all hover:bg-violet-600 hover:text-white"
           >
             Hire me
@@ -86,7 +88,9 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="mailto:wamik25apr@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=wamik25apr@gmail.com&su=Hello%20Wamik"
+            target="_blank"
+            rel="noreferrer"
             className="mt-3 block rounded-full bg-violet-600 px-4 py-2.5 text-center text-sm font-semibold text-white"
           >
             Hire me
