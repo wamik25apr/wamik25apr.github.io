@@ -30,7 +30,7 @@ export default function Footer() {
             ))}
         </div>
         <p className="font-mono text-xs text-slate-600">
-          © {new Date().getFullYear()} Khondekar Wamik Hossain · Built with React, Vite & Tailwind CSS
+          © {new Date().getFullYear()} Khondekar Wamik Hossain · Professional Cloud Platform Architect
         </p>
       </div>
     </footer>
