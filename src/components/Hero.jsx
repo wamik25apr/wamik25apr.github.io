@@ -1,4 +1,5 @@
 import { resume } from "../data/resume";
+import { contactEmailHref } from "../utils/contact";
 
 function ContactChip({ contact }) {
   const inner = (
@@ -9,8 +10,12 @@ function ContactChip({ contact }) {
   );
   const cls =
     "inline-flex max-w-full items-center gap-2 rounded-full border border-violet-500/20 bg-white/[0.03] px-3.5 py-1.5 text-xs font-medium text-slate-300 backdrop-blur transition-colors hover:border-violet-400/50 hover:text-violet-200";
-  return contact.href ? (
-    <a href={contact.href} target="_blank" rel="noreferrer" className={cls}>
+  const href =
+    contact.label === "Email"
+      ? contactEmailHref("wamik25apr@gmail.com")
+      : contact.href;
+  return href ? (
+    <a href={href} target="_blank" rel="noreferrer" className={cls}>
       {inner}
     </a>
   ) : (

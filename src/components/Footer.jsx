@@ -1,4 +1,5 @@
 import { resume } from "../data/resume";
+import { contactEmailHref } from "../utils/contact";
 
 export default function Footer() {
   return (
@@ -22,7 +23,7 @@ export default function Footer() {
                 key={c.label}
                 href={
                   c.label === "Email"
-                    ? "https://mail.google.com/mail/?view=cm&fs=1&to=wamik25apr@gmail.com&su=Hello%20Wamik"
+                    ? contactEmailHref("wamik25apr@gmail.com")
                     : c.href
                 }
                 target="_blank"
