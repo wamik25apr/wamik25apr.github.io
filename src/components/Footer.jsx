@@ -28,13 +28,13 @@ export default function Footer() {
                 }
                 target="_blank"
                 rel="noreferrer"
-                className="text-xs text-slate-500 transition-colors hover:text-violet-300"
+                className="text-xs text-slate-400 transition-colors hover:text-violet-300"
               >
                 {c.label}
               </a>
             ))}
         </div>
-        <p className="font-mono text-xs text-slate-600">
+        <p className="font-mono text-xs text-slate-400">
           © {new Date().getFullYear()} Khondekar Wamik Hossain · Professional Cloud Platform Architect
         </p>
       </div>

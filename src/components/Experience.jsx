@@ -24,7 +24,7 @@ function ExperienceCard({ job, isLast }) {
             <span className="inline-block rounded-full border border-fuchsia-500/30 bg-fuchsia-500/10 px-3 py-1 font-mono text-xs text-fuchsia-300">
               {job.period}
             </span>
-            <p className="mt-1.5 text-xs text-slate-500">{job.location}</p>
+            <p className="mt-1.5 text-xs text-slate-400">{job.location}</p>
           </div>
         </div>
 

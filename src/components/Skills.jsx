@@ -21,7 +21,7 @@ export default function Skills() {
               className="group relative overflow-hidden rounded-2xl border border-white/5 bg-white/[0.03] p-6 transition-all hover:-translate-y-1 hover:border-violet-500/40 hover:bg-violet-500/[0.06]"
             >
               <div className="flex items-center gap-3">
-                <span className="font-mono text-xs font-semibold text-violet-500">{String(i + 1).padStart(2, "0")}</span>
+                <span className="font-mono text-xs font-semibold text-violet-400">{String(i + 1).padStart(2, "0")}</span>
                 <h3 className="text-sm font-bold tracking-wide text-white uppercase">{skill.group}</h3>
               </div>
               <div className="mt-4 flex flex-wrap gap-2">

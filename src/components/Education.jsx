@@ -16,7 +16,7 @@ export default function Education() {
               key={`${item.institution}-${item.year}`}
               className="relative overflow-hidden rounded-2xl border border-white/5 bg-white/[0.03] p-6 transition-all hover:border-violet-500/40 hover:bg-violet-500/[0.05]"
             >
-              <span className="absolute right-5 top-5 font-mono text-xs text-violet-500">{item.year}</span>
+              <span className="absolute right-5 top-5 font-mono text-xs text-violet-400">{item.year}</span>
               <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-violet-600/30 to-fuchsia-600/30 text-violet-300">
                 <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
                   <path
@@ -28,7 +28,7 @@ export default function Education() {
               </div>
               <h3 className="mt-4 text-base font-bold text-white">{item.institution}</h3>
               <p className="mt-1 text-sm font-medium text-violet-300">{item.degree}</p>
-              <p className="mt-2 font-mono text-xs text-slate-500">{item.detail}</p>
+              <p className="mt-2 font-mono text-xs text-slate-400">{item.detail}</p>
             </div>
           ))}
         </div>

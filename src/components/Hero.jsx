@@ -25,7 +25,7 @@ function ContactChip({ contact }) {
 
 export default function Hero() {
   return (
-    <section id="top" className="relative flex min-h-screen items-center pt-24 pb-16">
+    <section id="top" className="relative flex min-h-dvh items-center pt-24 pb-16">
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 overflow-hidden"
@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="absolute -top-40 left-1/2 h-[36rem] w-[36rem] -translate-x-1/2 rounded-full bg-violet-700/25 blur-[120px]" />
         <div className="absolute -bottom-32 -right-24 h-[28rem] w-[28rem] rounded-full bg-fuchsia-700/20 blur-[120px]" />
         <div className="absolute -bottom-20 -left-24 h-[24rem] w-[24rem] rounded-full bg-indigo-700/20 blur-[120px]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(124,58,237,0.15)_1px,transparent_0)] [background-size:44px_44px] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_40%,black,transparent)]" />
+        <div className="absolute inset-0 [-webkit-mask-image:radial-gradient(ellipse_70%_60%_at_50%_40%,black,transparent)] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_40%,black,transparent)] [background-size:44px_44px] bg-[radial-gradient(circle_at_1px_1px,rgba(124,58,237,0.15)_1px,transparent_0)]" />
       </div>
 
       <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-[1.15fr_0.85fr]">
@@ -95,7 +95,7 @@ export default function Hero() {
               <div className="bg-gradient-to-r from-violet-300 to-fuchsia-300 bg-clip-text text-3xl font-extrabold text-transparent">
                 {stat.value}
               </div>
-              <div className="mt-1 text-xs font-medium tracking-wide text-slate-500 uppercase">
+              <div className="mt-1 text-xs font-medium tracking-wide text-slate-400 uppercase">
                 {stat.label}
               </div>
             </div>
