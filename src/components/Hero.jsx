@@ -25,7 +25,7 @@ function ContactChip({ contact }) {
 
 export default function Hero() {
   return (
-    <section id="top" className="relative flex min-h-dvh items-center pt-24 pb-16">
+    <section id="top" className="relative flex min-h-dvh flex-col justify-center pt-24 pb-16">
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 overflow-hidden"
@@ -36,7 +36,7 @@ export default function Hero() {
         <div className="absolute inset-0 [-webkit-mask-image:radial-gradient(ellipse_70%_60%_at_50%_40%,black,transparent)] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_40%,black,transparent)] [background-size:44px_44px] bg-[radial-gradient(circle_at_1px_1px,rgba(124,58,237,0.15)_1px,transparent_0)]" />
       </div>
 
-      <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-[1.15fr_0.85fr]">
+      <div className="relative mx-auto grid w-full max-w-6xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-[1.15fr_0.85fr]">
         <div>
           <p className="font-mono text-xs tracking-[0.3em] text-violet-400 uppercase">
             Cloud Platform Architect · SRE
