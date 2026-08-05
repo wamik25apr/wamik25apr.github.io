@@ -39,7 +39,7 @@ export default function Hero() {
       <div className="relative mx-auto grid w-full max-w-6xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-[1.15fr_0.85fr]">
         <div>
           <p className="font-mono text-xs tracking-[0.3em] text-violet-400 uppercase">
-            Cloud Platform Architect · SRE
+            Reliability & Platform Engineering · SRE
           </p>
           <h1 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
             {resume.name.split(" ").slice(0, 2).join(" ")}{" "}

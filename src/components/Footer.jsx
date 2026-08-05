@@ -49,7 +49,7 @@ export default function Footer() {
           </a>
         </div>
         <p className="font-mono text-xs text-slate-400">
-          © {new Date().getFullYear()} Khondekar Wamik Hossain · Professional Cloud Platform Architect
+          © {new Date().getFullYear()} Khondekar Wamik Hossain · Reliability & Platform Engineering Leader
         </p>
       </div>
     </footer>
