@@ -9,6 +9,7 @@ const links = [
   { label: "Certifications", href: "#certifications" },
   { label: "Education", href: "#education" },
   { label: "Homelab", href: "#/homelab", page: "homelab" },
+  { label: "Site Build", href: "#/site", page: "site" },
 ];
 
 export default function Navbar({ active }) {
