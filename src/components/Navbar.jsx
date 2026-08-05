@@ -8,9 +8,10 @@ const links = [
   { label: "Experience", href: "#experience" },
   { label: "Certifications", href: "#certifications" },
   { label: "Education", href: "#education" },
+  { label: "Homelab", href: "#/homelab", page: "homelab" },
 ];
 
-export default function Navbar() {
+export default function Navbar({ active }) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -48,7 +49,9 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-slate-400 transition-colors hover:text-violet-300"
+              className={`text-sm font-medium transition-colors hover:text-violet-300 ${
+                active === link.page ? "text-violet-300" : "text-slate-400"
+              }`}
             >
               {link.label}
             </a>
@@ -83,7 +86,9 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="block rounded-lg px-3 py-3 text-sm font-medium text-slate-300 transition-colors hover:bg-violet-500/10 hover:text-violet-300"
+              className={`block rounded-lg px-3 py-3 text-sm font-medium transition-colors hover:bg-violet-500/10 hover:text-violet-300 ${
+                active === link.page ? "bg-violet-500/10 text-violet-300" : "text-slate-300"
+              }`}
             >
               {link.label}
             </a>

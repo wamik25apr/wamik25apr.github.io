@@ -33,6 +33,13 @@ export default function Footer() {
                 {c.label}
               </a>
             ))}
+          <span aria-hidden className="text-slate-600">·</span>
+          <a
+            href="#/homelab"
+            className="text-xs text-slate-400 transition-colors hover:text-violet-300"
+          >
+            Homelab
+          </a>
         </div>
         <p className="font-mono text-xs text-slate-400">
           © {new Date().getFullYear()} Khondekar Wamik Hossain · Professional Cloud Platform Architect
