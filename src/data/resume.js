@@ -20,6 +20,20 @@ export const resume = {
     { value: "99.9%", label: "Platform uptime" },
     { value: "40%", label: "MTTD reduction" },
   ],
+  aiSkills: [
+    "MCP Server Pipelines",
+    "Agentic AI (Cotality SDK)",
+    "RAG Pipelines",
+    "Vector Databases",
+    "LiteLLM Orchestration",
+    "Gemini 2.5",
+    "GitHub Copilot",
+    "OpenTelemetry",
+    "AI-Augmented CI/CD",
+    "BMAD-METHOD",
+    "Prompt Engineering",
+    "OPA/Rego Guardrails",
+  ],
   summary:
     "Reliability and Platform Engineering leader with over 10 years of experience architecting enterprise-grade cloud-native platforms, reliability pipelines, and DevSecOps ecosystems at scale across Google Cloud, Microsoft Azure, and hybrid environments. Expert in driving system resilience through proactive observability frameworks, automated Infrastructure as Code (IaC) — Terraform, ARM Templates, Ansible — and high-scale container orchestration with Kubernetes (GKE/Anthos), Docker, and OpenShift. At Cognizant, drives system resilience for Walmart's Cloud-Native Platform (WCNP) by engineering Dynatrace/Grafana observability frameworks and RCA-led performance remediation that directly reduce P1 incident frequency. Previously at Wipro, led end-to-end OpenShift PaaS operations across onsite Bangladesh and Malaysia engagements, deploying 250+ microservices to production with zero SLA breach. Proven track record of reducing incident frequency and accelerating engineering velocity — cutting Mean Time to Detect by 40% and deployment cycles by 70% — by integrating AI-native agentic workflows and MCP (Model Context Protocol) server pipelines into production environments. Experienced in multi-cloud strategy and cloud adoption planning, with deep understanding of IaaS, PaaS, and SaaS service models, cloud security best practices, and compliance standards.",
   skills: [

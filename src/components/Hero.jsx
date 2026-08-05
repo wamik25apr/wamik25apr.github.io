@@ -89,7 +89,24 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="relative mx-auto mt-16 w-full max-w-6xl px-5 sm:px-8">
+      <div className="relative mx-auto mt-14 w-full max-w-6xl px-5 sm:px-8">
+        <p className="sr-only">AI & emerging technologies</p>
+        <div className="overflow-hidden [-webkit-mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)] [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)]">
+          <div className="marquee-track flex w-max items-center gap-3">
+            {[...resume.aiSkills, ...resume.aiSkills].map((skill, i) => (
+              <span
+                key={`${skill}-${i}`}
+                className="flex shrink-0 items-center gap-2.5 rounded-full border border-violet-500/20 bg-violet-500/10 px-4 py-1.5 font-mono text-xs font-medium text-violet-200"
+              >
+                <span aria-hidden className="h-1.5 w-1.5 shrink-0 rounded-full bg-gradient-to-r from-violet-400 to-fuchsia-400" />
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="relative mx-auto mt-10 w-full max-w-6xl px-5 sm:px-8">
         <div className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-violet-500/15 bg-violet-500/15 sm:grid-cols-4">
           {resume.stats.map((stat) => (
             <div key={stat.label} className="bg-[#0d0817] px-6 py-6 text-center">
