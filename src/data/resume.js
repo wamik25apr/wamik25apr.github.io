@@ -16,9 +16,9 @@ export const resume = {
   ],
   stats: [
     { value: "10+", label: "Years experience" },
-    { value: "250+", label: "Microservices in production" },
-    { value: "99.9%", label: "Platform uptime" },
-    { value: "40%", label: "MTTD reduction" },
+    { value: "MCP", label: "Servers powering AI agents" },
+    { value: "AI", label: "Agentic workflows in production" },
+    { value: "35%", label: "Less boilerplate via Copilot + BMAD" },
   ],
   aiSkills: [
     "MCP Server Pipelines",
