@@ -40,6 +40,7 @@ host without any server config:
 |-------|------|
 | `#/` | Home — hero, summary, skills, experience, certifications, education |
 | `#/homelab` | [Self-Hosting on a Raspberry Pi 5](https://github.com/wamik25apr/wamik25apr.github.io/blob/main/PI-SERVER-SETUP-WEBSITE.md) |
+| `#/gcp` | [GCP Solution Architecture Projects](https://github.com/wamik25apr/wamik25apr.github.io/blob/main/GCP-PROJECTS.md) |
 | `#/site` | This page |
 
 ---
@@ -73,6 +74,7 @@ No router library — routing is a ~15-line hash parser in `src/App.jsx` (see
 │   ├── index.css                  # Tailwind v4 entry + theme tokens + markdown styles
 │   └── main.jsx                   # React entry point
 ├── PI-SERVER-SETUP-WEBSITE.md     # Homelab page content (markdown)
+├── GCP-PROJECTS.md                # GCP architecture projects page content (markdown)
 ├── SITE-DEVELOPMENT.md            # this page's content (markdown)
 ├── index.html                     # HTML shell
 └── package.json
@@ -105,6 +107,7 @@ since it serves the exact `dist/` output that GitHub Pages will host.
 | Homepage section copy / highlights | `src/data/resume.js` |
 | Theme colors and fonts | `src/index.css` → `@theme` block |
 | Pi server guide | `PI-SERVER-SETUP-WEBSITE.md` |
+| GCP architecture projects | `GCP-PROJECTS.md` |
 | This page | `SITE-DEVELOPMENT.md` |
 
 Markdown pages are imported with Vite's `?raw` suffix, so the `.md` files at the

@@ -242,3 +242,13 @@ body {
   margin: 2.5rem 0;
   background: linear-gradient(to right, rgba(139, 92, 246, 0.5), transparent);
 }
+
+.md-content img {
+  width: 100%;
+  height: auto;
+  margin: 1.25rem 0;
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  border-radius: 0.75rem;
+  background: #0d0817;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}

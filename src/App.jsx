@@ -8,11 +8,13 @@ import Certifications from "./components/Certifications";
 import Education from "./components/Education";
 import Homelab from "./components/Homelab";
 import SiteBuild from "./components/SiteBuild";
+import GcpProjects from "./components/GcpProjects";
 import Footer from "./components/Footer";
 
 const pages = {
   homelab: Homelab,
   site: SiteBuild,
+  gcp: GcpProjects,
 };
 
 function parseRoute(hash) {
